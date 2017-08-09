@@ -38,7 +38,8 @@ config.localDBSize = 50 * 1024 * 1024;
 config.localDBVersion = "1.0";
 config.localDBCountryTable = 'country_detail';
 
-config.remoteServerAddress = "http://icokecontent.chinacloudapp.cn/store/travelfaq/";
+//config.remoteServerAddress = "http://icokecontent.chinacloudapp.cn/store/travelfaq/";
+config.remoteServerAddress = "http://ec2-54-214-99-121.us-west-2.compute.amazonaws.com/travelfaq/";
 config.remoteDataFileName = "TravelFAQData.xml";
 config.remoteDataFlagsFolder = "flags";
 config.remoteConnectTimeout = 7000;
