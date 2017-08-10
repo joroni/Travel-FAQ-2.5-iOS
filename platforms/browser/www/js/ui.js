@@ -199,7 +199,7 @@ appUI.switchToLandscape = function() {
 }
 
 appUI.switchToPortrait = function() {
-	$("#status-bar").show();
+	//$("#status-bar").show();
 	//alert('sb');
 	$("#listPanel").append($("#listContainer").detach());
 	$("#leftHeaderButton").addClass("ui-icon-grid");
@@ -462,7 +462,7 @@ appUI.populateCountriesAll = function() {
 				
 				var iconPath = config.fileSystemRootFolder + '/' + config.localImageFolderPath + '/' + code.toLowerCase() + ".png?" + Math.random();
 				
-				var iconPathStatic =  config.localImageFolderPath2 + '/' + code.toLowerCase() + ".png?" + Math.random();				
+				var iconPathStatic =  config.localImageFolderPath + '/' + code.toLowerCase() + ".png?" + Math.random();				
 				//if (!localFileExists(iconPath) || localFileExists(iconPath)) {
 					
 			if (!localFileExists(iconPath)) {
