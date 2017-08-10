@@ -47,6 +47,7 @@ var app = {
 		if (isDesktop()) {
 			$(document).ready(function(e) {
 				app.onDeviceReady();
+				console.log('test');
             });
 		}
 		
