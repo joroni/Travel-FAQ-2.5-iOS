@@ -7,7 +7,7 @@
 *
 * Author,email :	John Raymund Niconi, niconi@coca-cola.com
 * Date Revised :	April, 2016
-* Description  :	UI enhancments, geolocation fix, side menu collapsible
+* Description  :	UI enhancements, geolocation fix, side menu collapsible
 *
 **/
 
@@ -23,7 +23,7 @@ config.checkTabletMode = function() {
 }
 
 config.appTitle = "Travel FAQ";
-config.appInternalVersion = "2.4.0";
+config.appInternalVersion = "3.0.0";
 config.tabletMode = config.checkTabletMode();//config.getDeviceType();
 config.defaultCountryCode = 'CN';
 //config.updateAvailableMessage = 'New version of data is available for download.\n\nKindly sync with server to get the latest Travel FAQ data.';
