@@ -261,10 +261,10 @@ appUI.checkUpdate = function (){
 
 appUI.initiateDataUpdate = function() {	
 
-	if (!hasConnection()) {
+	/*if (!hasConnection()) {
 		alert('Connection is required.\n\nPlease connect to internet and try again.');
 		return;
-	}
+	}*/
 	var ajax = new XMLHttpRequest();
 	
 	var abortUpdate = function(event, ui) {
