@@ -18,6 +18,9 @@
     <feature name="Camera">
         <param name="ios-package" value="CDVCamera" />
     </feature>
+    <feature name="NetworkStatus">
+        <param name="ios-package" value="CDVConnection" />
+    </feature>
     <name>Travel FAQ</name>
     <description>TCCC Travel FAQ for iOS</description>
     <author email="support@chinacloudapp.com" href="http://icokecontent.chinacloudapp.cn">GSS Manila COE</author>

@@ -12,6 +12,9 @@
         },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.ko.travelfaq"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.ko.travelfaq"
         }
     },
     "dependent_plugins": {}

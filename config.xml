@@ -25,7 +25,6 @@
     <preference name="android-minSdkVersion" value="14" />
     <preference name="android-installLocation" value="auto" />
     <preference name="DisallowOverscroll" value="true" />
-    
     <feature name="StatusBar">
         <param name="ios-package" onload="true" value="CDVStatusBar" />
     </feature>
@@ -72,4 +71,5 @@
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="100000000" />
     <engine name="ios" spec="~4.3.1" />
+    <plugin name="cordova-plugin-network-information" spec="~1.3.3" />
 </widget>
