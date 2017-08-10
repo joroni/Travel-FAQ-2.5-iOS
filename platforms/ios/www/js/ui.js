@@ -608,7 +608,7 @@ appUI.populateCountryDetails = function(countryCode) {
 							mapDirLink = mapDirLink.replace(config.mapCoords2Key, geocoding.currentLocation);
 						}
 					}
-					<!--<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-location">location</button>-->
+					/*<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-location">location</button>*/
 					officeLoc +='<div class="ui-show-map-container">';
 					
 					officeLoc +='<button href="#" class="ui-btn ui-shadow ui-corner-all  ui-btn-icon-left ui-icon-location ui-btn-inline" onclick="openExtLink(\'' + mapLink + '\')">View Map</button>';

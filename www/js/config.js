@@ -42,7 +42,7 @@ config.remoteServerAddress = "http://icokecontent.chinacloudapp.cn/store/travelf
 //config.remoteServerAddress = "http://ec2-54-214-99-121.us-west-2.compute.amazonaws.com/travelfaq/";
 config.remoteDataFileName = "TravelFAQData.xml";
 config.remoteDataFlagsFolder = "flags";
-config.remoteConnectTimeout = 7000;
+config.remoteConnectTimeout = 15000;
 
 config.geoLatSearchKey = '<latitude>';
 config.geoLngSearchKey = '<longitude>';
@@ -56,8 +56,8 @@ config.mapCoords2Key = '<latlng_2>';
 
 
 config.defaultIconPath = 'images/icons/default.png';
-config.localImageFolderPath = 'flags';
-//config.localImageFolderPath = 'images/icons/flags'; /* HACK localized for sidebar */
+//config.localImageFolderPath = 'flags';
+config.localImageFolderPath = 'images/icons/flags'; /* HACK localized for sidebar */
 //config.localImageFolderPath2 = 'images/icons/flags'; /* HACK localized for sidebar */
 config.fileSystemRootFolder = '';
 
