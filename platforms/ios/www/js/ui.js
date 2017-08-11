@@ -553,7 +553,7 @@ appUI.populateCountryDetails = function(countryCode) {
 			
 			//var imgPath = config.localImageFolderPath2 + '/' + countryCode.toLowerCase() + ".png?" + Math.random();
 			
-			var imgPath2 = config.localImageFolderPath2 + '/' + countryCode.toLowerCase() + ".png";
+			var imgPath = config.localImageFolderPath2 + '/' + countryCode.toLowerCase() + ".png";
 			
 			
 			
