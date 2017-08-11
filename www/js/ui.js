@@ -547,7 +547,7 @@ appUI.populateCountryDetails = function(countryCode) {
 			if (pf && pf=="Android") mapShowURI = "geo:0,0?q=" + config.mapCoords1Key;
 			if (pf && pf=="Android") mapDirURI = "https://maps.google.com/?q=" + config.mapCoords2Key + "+to+" + config.mapCoords1Key;
 
-			var imgPath = config.fileSystemRootFolder + '/' + config.localImageFolderPath + '/' + countryCode.toLowerCase() + ".png?" + Math.random();
+			//var imgPath = config.fileSystemRootFolder + '/' + config.localImageFolderPath + '/' + countryCode.toLowerCase() + ".png?" + Math.random();
 			
 			//var iconPath =  config.localImageFolderPath2 + '/' + code.toLowerCase() + ".png?" + Math.random();
 			
