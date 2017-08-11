@@ -553,13 +553,15 @@ appUI.populateCountryDetails = function(countryCode) {
 			
 			//var imgPath = config.localImageFolderPath2 + '/' + countryCode.toLowerCase() + ".png?" + Math.random();
 			
-			//var imgPath2 = config.localImageFolderPath2 + '/' + countryCode.toLowerCase() + ".png?" + Math.random();
+			var imgPath2 = config.localImageFolderPath2 + '/' + countryCode.toLowerCase() + ".png";
 			
 			
 			
 			if (!localFileExists(imgPath)) {				
 				//imgPath = config.defaultIconPath2;
+				
 				imgPath = config.localImageFolderPath;
+				
 				//imgPath = config.defaultIconPath;
 				//alert(imgPath);
 			} 
