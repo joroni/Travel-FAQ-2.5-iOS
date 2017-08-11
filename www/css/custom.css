@@ -71,7 +71,7 @@ html, body {
     outline: 0!important;
 }
 
-#status-bar {
+#//$("#status-bar").show(); {
 	position:absolute;
 	top:0;
 	left:0;
@@ -369,7 +369,7 @@ a {
   .device-type {
 	  width:1px;
   }	
-  #status-bar {
+  #//$("#status-bar").show(); {
 	  display:block;
   }
 

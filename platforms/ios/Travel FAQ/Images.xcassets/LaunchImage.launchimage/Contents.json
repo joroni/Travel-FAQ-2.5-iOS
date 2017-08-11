@@ -101,7 +101,7 @@
     {
       "orientation" : "portrait",
       "idiom" : "ipad",
-      "extent" : "to-status-bar",
+      "extent" : "to-//$("#status-bar").show();",
       "scale" : "1x"
     },
     {
@@ -114,7 +114,7 @@
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
-      "extent" : "to-status-bar",
+      "extent" : "to-//$("#status-bar").show();",
       "scale" : "1x"
     },
     {
@@ -126,7 +126,7 @@
     {
       "orientation" : "portrait",
       "idiom" : "ipad",
-      "extent" : "to-status-bar",
+      "extent" : "to-//$("#status-bar").show();",
       "scale" : "2x"
     },
     {
@@ -139,7 +139,7 @@
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
-      "extent" : "to-status-bar",
+      "extent" : "to-//$("#status-bar").show();",
       "scale" : "2x"
     },
     {

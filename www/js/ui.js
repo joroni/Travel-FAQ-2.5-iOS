@@ -181,7 +181,7 @@ appUI.arrangeScreenLayout = function() {
 }
 
 appUI.switchToLandscape = function() {
-	//$("#status-bar").addClass("hidden");
+	//$("#//$("#status-bar").show();").addClass("hidden");
 	$("#listPanelLandscape").append($("#listContainer").detach());
 	$("#leftHeaderButton").addClass("ui-icon-location");
 	$("#leftHeaderButton").removeClass("ui-icon-grid");
@@ -199,7 +199,7 @@ appUI.switchToLandscape = function() {
 }
 
 appUI.switchToPortrait = function() {
-	//$("#status-bar").show();
+	////$("#//$("#status-bar").show();").show();
 	//alert('sb');
 	$("#listPanel").append($("#listContainer").detach());
 	$("#leftHeaderButton").addClass("ui-icon-grid");
@@ -463,9 +463,9 @@ appUI.populateCountriesAll = function() {
 				var iconPath = config.fileSystemRootFolder + '/' + config.localImageFolderPath + '/' + code.toLowerCase() + ".png?" + Math.random();
 				
 				var iconPathStatic =  config.localImageFolderPath + '/' + code.toLowerCase() + ".png?" + Math.random();				
-				//if (!localFileExists(iconPath) || localFileExists(iconPath)) {
+				if (!localFileExists(iconPath) || localFileExists(iconPath)) {
 					
-			if (!localFileExists(iconPath)) {
+			//if (!localFileExists(iconPath)) {
 					//iconPath = config.defaultIconPath;
 					/* SIDE BAR'S ICON */
 					iconPath = iconPathStatic;
