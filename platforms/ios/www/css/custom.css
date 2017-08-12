@@ -36,7 +36,7 @@
 }
 
 html, body {
-	font-family:"Roboto Condensed", sans-serif !important;
+	font-family:"Roboto", sans-serif !important;
 	font-weight:400;
 }
 .btn-danger {
@@ -45,13 +45,45 @@ html, body {
 	text-shadow: none !important;
 	
 }
+
+
+.custom-menu {
+    background-image: url(../images/icons-svg/menu.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    background-position: center center;
+    top: 5px;
+    left: 15px;
+    position: absolute;
+}
+
+.custom-more {
+    background-image: url(../images/icons-svg/more.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    background-position: center center;
+    top: 5px;
+    right: 5px;
+    position: absolute;
+}
 /*
 #allCountries li, #allCountries li li {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 */
 
-	
+	#optionsPanel .ui-header, #listPanel .ui-header {
+		padding-top: 20px;
+		height: 70px;
+	}
+
+	#optionsPanel .ui-header .ui-btn,  #listPanel .ui-header .ui-btn {
+		margin-top:10px;
+	}
 
 #ios7-statusbar-fix {
     width:100%;
@@ -78,7 +110,7 @@ html, body {
     white-space: nowrap;
     outline: 0!important;
 }
-
+/*
 #//$("#status-bar").show(); {
 	position:absolute;
 	top:0;
@@ -87,7 +119,7 @@ html, body {
 	height:20px;
 	background-color:#FFF;
 	z-index:200001;
-}
+}*/
 .ui-listview > .ui-li-static, .ui-listview > .ui-li-divider, .ui-listview > li > a.ui-btn {
     border-style: solid;
 	
@@ -97,10 +129,9 @@ html, body {
 div#details.detail-area div.ui-collapsible-set.ui-group-theme-b.ui-corner-all div.ui-collapsible.ui-collapsible-inset.ui-corner-all.ui-collapsible-themed-content.ui-collapsible-collapsed {
 	border:none;
 }
-
 .ui-collapsible-inset .ui-collapsible-heading .ui-btn {
-    border:1px solid rgba(255,255,255,0.75);
-	margin-top:2px;
+    border: 1px solid rgba(255,255,255,0.25);
+    margin-top: 5px;
 }
 
 .ui-btn, label.ui-btn, .nav-icon.ui-btn.ui-corner-all, a.ui-btn.ui-btn-left.ui-btn-icon-notext.ui-corner-all{
@@ -226,10 +257,10 @@ height:30px;
 
 /***** iPad ******/
 .page-header {
-    background-image: url("../images/tfq-logo.svg");
+    background-image: url(../images/tfq-logo.svg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 250px auto;
     margin-top: 15px;
     min-height: 60px;
 }

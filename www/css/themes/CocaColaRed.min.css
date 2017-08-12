@@ -23,7 +23,7 @@ button,
 .ui-btn {
     font-size: 1em;
     line-height: 1.3;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif !important;
     /*{global-font-family}*/
     
     ;
