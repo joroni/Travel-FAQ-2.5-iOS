@@ -17,9 +17,12 @@
 */
 /* @import url(https://fonts.googleapis.com/css?family=Roboto:300,100,400,700); */
 
-@import "fonts/roboto/roboto-400-500.css";
 
-@import "fontawesome/font-awesome.min.css";
+
+
+@import url('themes/bootstrap/css/roboto-condensed.css');
+@import url('themes/bootstrap/css/font-awesome.css');
+
 
 /* #allCountries .ui-listview-filter:nth-child(n+2) {
     display : none;
