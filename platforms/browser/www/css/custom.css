@@ -344,16 +344,30 @@ height:30px;
 
 
 
-#main {
+#content {
     background-image: url(../images/background6.png);
-    background-position: -80px 79px;
+    background-position: -80px 0;
     background-size: 200%;
     background-repeat: no-repeat;
     padding: 0px;
     border: none;
-    padding-bottom: 0px !important;
+	padding-bottom: 0px !important;
+	
+
+	
 }
 
+
+#main{
+	background: rgba(254,254,254,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(254,254,254,1) 42%, rgba(249,249,249,1) 52%, rgba(226,226,226,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(42%, rgba(254,254,254,1)), color-stop(52%, rgba(249,249,249,1)), color-stop(100%, rgba(226,226,226,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(254,254,254,1) 42%, rgba(249,249,249,1) 52%, rgba(226,226,226,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(254,254,254,1) 42%, rgba(249,249,249,1) 52%, rgba(226,226,226,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(254,254,254,1) 42%, rgba(249,249,249,1) 52%, rgba(226,226,226,1) 100%);
+background: radial-gradient(ellipse at center, rgba(254,254,254,1) 42%, rgba(249,249,249,1) 52%, rgba(226,226,226,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e2e2e2', GradientType=1 );
+}
 .content-table {
 	width:100%;
 	padding:5px;
