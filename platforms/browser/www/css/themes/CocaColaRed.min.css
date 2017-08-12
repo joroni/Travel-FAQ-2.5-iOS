@@ -24,7 +24,8 @@ button,
     font-size: 1em;
     line-height: 1.3;
     font-family: "Roboto", sans-serif !important;
-    /*{global-font-family}*/
+	/*{global-font-family}*/
+	font-weight: 300 !important;
     
     ;
 }
@@ -353,6 +354,9 @@ html .ui-panel-page-container-a {
 .ui-body-a {
     border-width: 1px;
     border-style: solid;
+}
+.detail-content a {
+    color: #d10000 !important;
 }
 .ui-page-theme-a a,
 html .ui-bar-a a,
