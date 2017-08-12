@@ -36,7 +36,7 @@
 }
 
 html, body {
-	font-family:"Roboto", sans-serif;
+	font-family:"Roboto Condensed", sans-serif !important;
 	font-weight:400;
 }
 .btn-danger {
@@ -238,6 +238,7 @@ height:30px;
     max-width: 100%;
     position: relative;
     top: -50px;
+    padding: 10px 20px;
 }
 
 .detail-icon {
