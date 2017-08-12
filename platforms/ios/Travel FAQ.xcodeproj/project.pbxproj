@@ -26,6 +26,8 @@
 		66FEB858020E457A818B6662 /* CDVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5ABE563A36436280C034DC /* CDVReachability.m */; };
 		DCB0FBD80183498E9CC543FB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2224787408E4081BA5F6783 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		B7A54F14FAAD49B2BFC98353 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA100F97F674D59AFAA5FDB /* CoreTelephony.framework */; };
+		646D2867914C4673A488A844 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = AC60DF04E291440FBD7D64DA /* CDVDevice.m */; };
+		855E5FB1C07246EB872E126D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F44B5BD4A71F4B1DB190A70B /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,9 @@
 		42E92EAB190C49B692C22712 /* CDVReachability.h */ = {isa = PBXFileReference; name = "CDVReachability.h"; path = "cordova-plugin-network-information/CDVReachability.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		A2224787408E4081BA5F6783 /* SystemConfiguration.framework */ = {isa = PBXFileReference; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		DAA100F97F674D59AFAA5FDB /* CoreTelephony.framework */ = {isa = PBXFileReference; name = "CoreTelephony.framework"; path = "System/Library/Frameworks/CoreTelephony.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		AC60DF04E291440FBD7D64DA /* CDVDevice.m */ = {isa = PBXFileReference; name = "CDVDevice.m"; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		16BE24233689425EAE2C46D1 /* CDVDevice.h */ = {isa = PBXFileReference; name = "CDVDevice.h"; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		F44B5BD4A71F4B1DB190A70B /* libz.tbd */ = {isa = PBXFileReference; name = "libz.tbd"; path = "usr/lib/libz.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +100,7 @@
 				FE366FFCDAE14F1A894DC4B2 /* AVFoundation.framework in Frameworks */,
 				DCB0FBD80183498E9CC543FB /* SystemConfiguration.framework in Frameworks */,
 				B7A54F14FAAD49B2BFC98353 /* CoreTelephony.framework in Frameworks */,
+				855E5FB1C07246EB872E126D /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +176,7 @@
 				C6E7B9A0A6244B8DA7136323 /* AVFoundation.framework */,
 				A2224787408E4081BA5F6783 /* SystemConfiguration.framework */,
 				DAA100F97F674D59AFAA5FDB /* CoreTelephony.framework */,
+				F44B5BD4A71F4B1DB190A70B /* libz.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -206,6 +213,8 @@
 				2E5ABE563A36436280C034DC /* CDVReachability.m */,
 				C9E6F0D6909043639F14174A /* CDVConnection.h */,
 				42E92EAB190C49B692C22712 /* CDVReachability.h */,
+				AC60DF04E291440FBD7D64DA /* CDVDevice.m */,
+				16BE24233689425EAE2C46D1 /* CDVDevice.h */,
 			);
 			name = Plugins;
 			path = "Travel FAQ/Plugins";
@@ -323,6 +332,7 @@
 				E4ECD5DFCE4B40BBBE5E1197 /* CDVJpegHeaderWriter.m in Sources */,
 				F7588F6BE5BC49DA9F113875 /* CDVConnection.m in Sources */,
 				66FEB858020E457A818B6662 /* CDVReachability.m in Sources */,
+				646D2867914C4673A488A844 /* CDVDevice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

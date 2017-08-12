@@ -19,6 +19,10 @@
                         {
                             "xml": "<feature name=\"NetworkStatus\"><param name=\"ios-package\" value=\"CDVConnection\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -43,6 +47,9 @@
             "PACKAGE_NAME": "com.ko.travelfaq"
         },
         "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.ko.travelfaq"
+        },
+        "cordova-plugin-device": {
             "PACKAGE_NAME": "com.ko.travelfaq"
         }
     },
@@ -96,11 +103,20 @@
             "clobbers": [
                 "Connection"
             ]
+        },
+        {
+            "id": "cordova-plugin-device.device",
+            "file": "plugins/cordova-plugin-device/www/device.js",
+            "pluginId": "cordova-plugin-device",
+            "clobbers": [
+                "device"
+            ]
         }
     ],
     "plugin_metadata": {
         "cordova-plugin-camera": "2.1.1",
         "cordova-plugin-whitelist": "1.2.1",
-        "cordova-plugin-network-information": "1.3.3"
+        "cordova-plugin-network-information": "1.3.3",
+        "cordova-plugin-device": "1.1.6"
     }
 }

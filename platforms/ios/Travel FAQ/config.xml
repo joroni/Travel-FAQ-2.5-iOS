@@ -21,6 +21,9 @@
     <feature name="NetworkStatus">
         <param name="ios-package" value="CDVConnection" />
     </feature>
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+    </feature>
     <name>Travel FAQ</name>
     <description>TCCC Travel FAQ for iOS</description>
     <author email="support@chinacloudapp.com" href="http://icokecontent.chinacloudapp.cn">GSS Manila COE</author>

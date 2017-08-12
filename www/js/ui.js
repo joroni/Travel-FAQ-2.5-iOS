@@ -613,9 +613,9 @@ appUI.populateCountryDetails = function(countryCode) {
 					/*<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-location">location</button>*/
 					officeLoc +='<div class="ui-show-map-container">';
 					
-					officeLoc +='<a href="#" class="btn btn-danger ui-shadow ui-corner-all  ui-btn-icon-left ui-icon-location ui-btn-inline" onclick="openExtLink(\'' + mapLink + '\')">View Map</a>';
+					officeLoc +='<a href="#" class="btn btn-danger" onclick="openExtLink(\'' + mapLink + '\')">View Map</a>';
 					if (mapDirLink) {
-						officeLoc +='&nbsp;&nbsp;&nbsp;<a href="#" class="btn btn-danger ui-shadow ui-corner-all ui-btn-icon-left ui-icon-navigation ui-btn-inline" onclick="openExtLink(\'' +  mapDirLink + '\')">Navigate</a>';
+						officeLoc +='&nbsp;&nbsp;&nbsp;<a href="#" class="btn btn-danger" onclick="openExtLink(\'' +  mapDirLink + '\')">Navigate</a>';
 					}
 					officeLoc +='</div>';
 				}	

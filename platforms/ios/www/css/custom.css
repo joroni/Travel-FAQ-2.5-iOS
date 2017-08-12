@@ -39,7 +39,12 @@ html, body {
 	font-family:"Roboto", sans-serif;
 	font-weight:400;
 }
-
+.btn-danger {
+	color: #fff;
+	background: #d10000 !important;
+	text-shadow: none !important;
+	
+}
 /*
 #allCountries li, #allCountries li li {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.2);

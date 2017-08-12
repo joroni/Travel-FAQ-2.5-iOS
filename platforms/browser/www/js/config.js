@@ -80,4 +80,3 @@ config.locationCoarseTimeout = 15000;
 config.geoJSONCountriesFile = "countries.geojson";
 
 
-
