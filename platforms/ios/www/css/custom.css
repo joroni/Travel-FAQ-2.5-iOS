@@ -345,9 +345,9 @@ height:30px;
 
 
 #main {
-    background-image: url(../images/background4.png);
+    background-image: url(../images/background6.png);
     background-position: -80px 79px;
-    background-size: 400%;
+    background-size: 200%;
     background-repeat: no-repeat;
     padding: 0px;
     border: none;
@@ -412,10 +412,11 @@ a {
   .device-type {
 	  width:1px;
   }	
-  #//$("#status-bar").show(); {
+  /*#//$("#status-bar").show(); {
 	  display:block;
   }
 
+  */
 }
 
 @media only screen and (min-width: 48em) {
