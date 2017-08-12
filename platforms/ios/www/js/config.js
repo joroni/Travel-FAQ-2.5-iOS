@@ -42,7 +42,7 @@ config.remoteServerAddress = "http://icokecontent.chinacloudapp.cn/store/travelf
 //config.remoteServerAddress = "http://ec2-54-214-99-121.us-west-2.compute.amazonaws.com/travelfaq/";
 config.remoteDataFileName = "TravelFAQData.xml";
 config.remoteDataFlagsFolder = "flags";
-config.remoteConnectTimeout = 7000;
+config.remoteConnectTimeout = 5000;
 
 config.geoLatSearchKey = '<latitude>';
 config.geoLngSearchKey = '<longitude>';
@@ -76,7 +76,7 @@ config.detailLabels = [
 
 
 config.fixCountryFilter = false;
-config.locationCoarseTimeout = 15000;
+config.locationCoarseTimeout = 10000;
 config.geoJSONCountriesFile = "countries.geojson";
 
 

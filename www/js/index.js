@@ -38,6 +38,7 @@ var app = {
 		$.support.cors = true;
 		$.mobile.allowCrossDomainPages = true;
 		appUI.initialize();
+			console.log('INITIALIZING APP...');
     },
     // Bind Event Listeners
     //
@@ -47,7 +48,7 @@ var app = {
 		if (isDesktop()) {
 			$(document).ready(function(e) {
 				app.onDeviceReady();
-				console.log('test');
+			
             });
 		}
 		
@@ -69,6 +70,7 @@ var app = {
 		document.addEventListener("online", 
 		function() {
 			D('Connection established.');
+			console.log('STARTING APP...');
 			    navigator.splashscreen.hide();
     StatusBar.styleLightContent();
 			appUI.checkUpdate();

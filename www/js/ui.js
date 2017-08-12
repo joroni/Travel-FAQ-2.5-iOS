@@ -743,7 +743,7 @@ appUI.setUserScreen = function() {
 						appUI.launchFirstScreen(countryCode);
 					}
 				);
-				//appUI.launchFirstScreen();
+				appUI.launchFirstScreen();
 			} else {
 				appUI.launchFirstScreen();
 				return;				
