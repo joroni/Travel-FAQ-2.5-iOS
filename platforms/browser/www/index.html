@@ -50,30 +50,7 @@
         <link rel="stylesheet" href="jquery.mobile.structure-1.4.2.min.css" type="text/css"/>
 		<link rel="stylesheet" href="css/custom.css" type="text/css"/>
 		<link rel="stylesheet" href="themes/bootstrap/css/font-awesome.min.css" type="text/css"/>
-		<script src="js/jquery/jquery.min.js" type="text/javascript"></script>
-		<script src="js/tether.min.js"></script>
-		<script src="themes/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-	
-		<script src="jquery.mobile-1.4.2.min.js" type="text/javascript"></script>
-<script>
-	//Run when the page load (before images and other resource)
-
-
-    //Ajax Loading Message
-    $(document).ajaxStart( function() { 
-        $("#main").addClass('disabled');
-        $('#loading').removeClass('hidden');
-	})
-	function myFunctionTimer() {
-	//	$(document).ajaxStop( function myFunctionTimer() {
-        $("#main").removeClass('disabled');
-        $('#loading').addClass('hidden');
-	//});
-	
-	}
-setTimeout(myFunctionTimer, 5000);
-	
-	</script>
+		
     </head>
     <body>
 	<div id="ios7-statusbar-fix"></div>
@@ -149,6 +126,7 @@ setTimeout(myFunctionTimer, 5000);
 				</div>
 			</div>
 			<!-- options panel -->
+			
 			<div data-role="panel" id="optionsPanel" data-position="right" data-display="overlay" data-dismissible="true" class="options-panel" data-position-fixed="true">
 
 				<div data-role="header" data-theme="b">
@@ -156,7 +134,9 @@ setTimeout(myFunctionTimer, 5000);
 					<!-- the line below is hidden from UI. it is here just to align the same button to the right -->
                     <div class="ui-navbar ui-corner-all">
 					<a class="ui-btn ui-btn-left ui-icon-carat-r ui-btn-icon-notext ui-corner-all" href="#optionsPanel" data-icon="carat-r" data-iconpos="notext" data-direction="reverse">Options</a>
-					<a class="nav-icon ui-btn ui-btn-left ui-icon-arrow-r ui-btn-icon-notext ui-corner-all" href="#optionsPanel" data-icon="arrow-r" data-iconpos="notext" data-direction="reverse" style="display:none;">Options</a>
+						
+					<!--<a class="nav-icon ui-btn ui-btn-left ui-icon-arrow-r ui-btn-icon-notext ui-corner-all" href="#optionsPanel" data-icon="arrow-r" data-iconpos="notext" data-direction="reverse" style="display:none;">Options</a>-->
+					<a class="nav-icon ui-btn ui-btn-left ui-btn-icon-notext ui-corner-all" href="#optionsPanel" data-icon="arrow-r" data-iconpos="notext" data-direction="reverse" style="display:none;">Options</a>
 				</div>
                 </div>
 				<div data-role="content" class="options-panel-content">
@@ -211,7 +191,7 @@ setTimeout(myFunctionTimer, 5000);
         <h1>About</h1>
       </div>
       <center>
-              <h2 style="margin-left:10px;margin-right:10px;margin-top:10px;font-weight:bold;" id="appName">Travel FAQ</h2>
+    	<h2 style="margin-left:10px;margin-right:10px;margin-top:10px;font-weight:bold;" id="appName">Travel FAQ</h2>
   <div style="margin-left:10px;margin-right:10px; margin-top:-5px; margin-bottom:-10px;" id="compLogo"><img src="images/Coca-Cola-IT-Lockup-red.svg" style="height: 35px;"></div>
         <div style="margin-left:10px;margin-right:10px;margin-top:10px;font-weight:bold;" id="aboutVersion">Version 2.4.0</div>
         <div style="margin-left:10px;margin-right:10px;margin-top:5px;">&copy; Copyright 2017</div>
@@ -225,8 +205,32 @@ setTimeout(myFunctionTimer, 5000);
 		<div style="display:none;" class="device-type" id="deviceType"></div>
 
 		<script type="text/javascript" src="cordova.js"></script>
-       
+       <script src="js/jquery/jquery.min.js" type="text/javascript"></script>
+			<script src="js/tether.min.js"></script>
+		<script src="themes/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+	
+		<script src="jquery.mobile-1.4.2.min.js" type="text/javascript"></script>
+
 		<script type="text/javascript" src="js/config.js"></script>
+	<script>
+	//Run when the page load (before images and other resource)
+
+
+    //Ajax Loading Message
+    $(document).ajaxStart( function() { 
+        $("#main").addClass('disabled');
+        $('#loading').removeClass('hidden');
+	})
+	function myFunctionTimer() {
+	//	$(document).ajaxStop( function myFunctionTimer() {
+        $("#main").removeClass('disabled');
+        $('#loading').addClass('hidden');
+	//});
+	
+	}
+setTimeout(myFunctionTimer, 5000);
+	
+	</script>
 		<script type="text/javascript" src="js/utils.js"></script>
 		<script type="text/javascript" src="js/remote_store.js"></script>
 		<script type="text/javascript" src="js/local_store.js"></script>
@@ -239,14 +243,15 @@ setTimeout(myFunctionTimer, 5000);
 		<script type="text/javascript">
 			$(document).bind('pageinit', function(event) {
 				app.initialize();
+				
 			});
 		</script>
         
         <script>
         StatusBar.show();
-StatusBar.overlaysWebView(false);
-StatusBar.styleLightContent();
-StatusBar.backgroundColorByHexString("#000000");
+		StatusBar.overlaysWebView(false);
+		StatusBar.styleLightContent();
+		StatusBar.backgroundColorByHexString("#000000");
         
         </script>
     </body>
