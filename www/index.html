@@ -56,7 +56,11 @@
 	<div id="ios7-statusbar-fix"></div>
 	
 	<div id="loading" class="text-center">
-    <i class="fa fa-circle-o-notch fa-spin blue fa-2x"></i>
+	<!--<i class="fa fa-circle-o-notch fa-spin blue fa-2x"></i>-->
+	<center>
+				<img src="images/icons/spinner_red.gif" style="height:30px;width:30px;margin-top:calc (50%, 25px);">
+				
+			</center>
 </div>
 		<div id="main" data-role="page" style="padding-bottom:0px !important;">
        <!-- <div id="//$("#status-bar").show();" class="hidden"></div>-->
@@ -155,7 +159,7 @@
 				<div data-role="header" data-theme="b">
                 <h4>REGIONS</h4>
                 <div class="ui-navbar ui-corner-all">
-					<a class="nav-icon ui-btn ui-btn-left ui-icon-carat-l ui-btn-icon-notext ui-corner-all" href="#listPanel" data-icon="carat-l" data-iconpos="notext">Close</a>
+					<!--<a class="nav-icon ui-btn ui-btn-left ui-icon-carat-l ui-btn-icon-notext ui-corner-all" href="#listPanel" data-icon="carat-l" data-iconpos="notext">Close</a>-->
 					<a class="nav-icon ui-btn ui-btn-right ui-icon-location ui-btn-icon-notext ui-corner-all" href="#" onclick="appUI.gotoCurrentLocation();" data-icon="location" data-iconpos="notext">Current Location</a>
                     </div>
 
@@ -187,9 +191,9 @@
 
     <!-- about popup -->
     <div data-theme="b" data-role="popup" id="aboutDialog" data-dismissible="false" style="width:250px;">
-      <div data-role="header" class="ui-corner-top">
+      <!--<div data-role="header" class="ui-corner-top">
         <h1>About</h1>
-      </div>
+      </div>-->
       <center>
     	<h2 style="margin-left:10px;margin-right:10px;margin-top:10px;font-weight:bold;" id="appName">Travel FAQ</h2>
   <div style="margin-left:10px;margin-right:10px; margin-top:-5px; margin-bottom:-10px;" id="compLogo"><img src="images/Coca-Cola-IT-Lockup-red.svg" style="height: 35px;"></div>
@@ -228,7 +232,7 @@
 	//});
 	
 	}
-setTimeout(myFunctionTimer, 5000);
+setTimeout(myFunctionTimer, 15000);
 	
 	</script>
 		<script type="text/javascript" src="js/utils.js"></script>
@@ -247,12 +251,17 @@ setTimeout(myFunctionTimer, 5000);
 			});
 		</script>
         
-        <script>
+     <!--   <script>
         StatusBar.show();
 		StatusBar.overlaysWebView(false);
 		StatusBar.styleLightContent();
 		StatusBar.backgroundColorByHexString("#000000");
         
-        </script>
+        </script>-->
     </body>
 </html>
+<center>
+				<img src="images/icons/spinner_red.gif" style="height:30px;width:30px;margin-top:10px;">
+				<div style="margin-left:10px;margin-right:10px;" id="updateText">Update in progress. Please wait...</div>
+				<a href="#" data-role="button" style="width:80px;" id="updateCancelBtn">Cancel</a>
+			</center>
