@@ -161,7 +161,11 @@ img.tfq-logo {
 #listPanel, #listContainer {
 	
 	background-color: #efefef;
+	width:220px;
     
+}
+div#optionsPanel {
+    width: 200px;
 }
 
 .ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a {
@@ -391,7 +395,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', end
 
 .country-detail-header {
     background-color: white;
-    border: solid #C9686A 1px;
+    border: solid #C9686A 0px;
     display: none;
     border-radius: 5px;
     box-shadow: 0 1px 7px #a7a7a8;
