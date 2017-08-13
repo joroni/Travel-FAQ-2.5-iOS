@@ -19,7 +19,7 @@ $(document).on("pagecreate", "#main", function () {
 	//$("#allCountries li").hide();
 	
 	if ($('ul#allCountries li > a.ui-btn').hasClass('ui-icon-carat-r')) {
-					$(this).addClass('ui-icon-carat-rsss');
+					$(this).addClass('ui-icon-carat-rs');
 				}
 	
 });
