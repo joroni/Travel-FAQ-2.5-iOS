@@ -76,7 +76,7 @@ config.detailLabels = [
 
 
 config.fixCountryFilter = false;
-config.locationCoarseTimeout = 10000;
+config.locationCoarseTimeout = 30000;
 config.geoJSONCountriesFile = "countries.geojson";
 
 

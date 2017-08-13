@@ -133,6 +133,9 @@ geocoding.getCurrentCountry = function( callBack ) {
 		}
 	);		
 	
+
+
+	
 	//this is if timeout won't work.
 	setTimeout(function() {		
 		if (geocoding.gpReturned==false) {
@@ -178,6 +181,19 @@ geocoding.getCountryCodeOffline = function(lat,long) {
 	}
 }
 
+
+
+ function getLocation(){
+				if(navigator.geolocation){
+               // timeout at 60000 milliseconds (60 seconds)
+               var options = {timeout:60000};
+               navigator.geolocation.getCurrentPosition(showLocation, errorHandler, options);
+            }
+            
+            else{
+               alert("Sorry, browser does not support geolocation!");
+            }
+         }
 //based on http://www.ecse.rpi.edu/Homepages/wrf/Research/Short_Notes/pnpoly.html
 geocoding.PointInPolygon = function(point, polygon) {
 	var nvert = polygon.length;
