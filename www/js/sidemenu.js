@@ -12,7 +12,7 @@
  **/
  
 
-$(document).on("pagecreate", "#main", function () {
+$(device).on("pagecreate", "#main", function () {
     var ic = '<span class="ui-icon-minus ui-btn-icon-notext inlineIcon"></span>';
     $(".ui-li-divider").prepend(ic);
     
@@ -23,7 +23,7 @@ $(document).on("pagecreate", "#main", function () {
 				}
 	
 });
-$(document).on("click", ".collapseExpand", function () {
+$(device).on("click", ".collapseExpand", function () {
     var collapseAll = this.id == "btnCollapse";
     if (collapseAll) {
         $(".ui-li-divider .ui-icon-minus").click();
@@ -38,7 +38,7 @@ $(document).on("click", ".collapseExpand", function () {
 
 
 
-$(document).on("click", '.ui-li-divider', function (e) {
+$(device).on("click", '.ui-li-divider', function (e) {
     var IsCollapsed = false;
     var TheDivider = $(this);
     var li = TheDivider.next(':not(.ui-li-divider)');

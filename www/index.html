@@ -221,12 +221,12 @@
 
 
     //Ajax Loading Message
-    $(document).ajaxStart( function() { 
+    $(device).ajaxStart( function() { 
         $("#main").addClass('disabled');
         $('#loading').removeClass('hidden');
 	})
 	function myFunctionTimer() {
-	//	$(document).ajaxStop( function myFunctionTimer() {
+	//	$(device).ajaxStop( function myFunctionTimer() {
         $("#main").removeClass('disabled');
         $('#loading').addClass('hidden');
 	//});
@@ -245,7 +245,7 @@ setTimeout(myFunctionTimer, 15000);
 		<script type="text/javascript" src="js/index.js"></script>
 
 		<script type="text/javascript">
-			$(document).bind('pageinit', function(event) {
+			$(device).bind('pageinit', function(event) {
 				app.initialize();
 				
 			});

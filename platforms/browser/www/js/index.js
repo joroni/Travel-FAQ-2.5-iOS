@@ -46,7 +46,7 @@ var app = {
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {   
 		if (isDesktop()) {
-			$(document).ready(function(e) {
+			$(device).ready(function(e) {
 				app.onDeviceReady();
 			
             });
