@@ -255,12 +255,20 @@ html .ui-alt-icon .ui-radio-off:after {
     ;
     background-color: rgba(0, 0, 0, .15);
 }
+
+.ui-btn-icon-right:after {
+    right: .5625em;
+    color: transparent;
+    opacity: 0;
+}
+
 /* No disc */
 
 .ui-nodisc-icon.ui-btn:after,
 .ui-nodisc-icon .ui-btn:after {
     background-color: transparent;
 }
+
 /* Icon shadow */
 
 .ui-shadow-icon.ui-btn:after,
