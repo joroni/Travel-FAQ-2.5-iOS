@@ -54,12 +54,16 @@ appUI.initialize = function() {
 	
 	$( "#updatePopupDialog").enhanceWithin().popup({history:false});
 	$( "#updatePopupDialog" ).popup('close');
+	//$( "#updatePopupDialog" ).hide();
 	
 	$( "#updateProgressDialog").enhanceWithin().popup({history:false});
 	$( "#updateProgressDialog" ).popup('close');	
+	//$(".updateBody").hide();
+	//$( "#updateProgressDialog" ).hide();	
 	
 	$( "#aboutDialog").enhanceWithin().popup({history:false});
-	$( "#aboutDialog" ).popup('close');		
+	$( "#aboutDialog" ).popup('close');	
+	//$( "#aboutDialog" ).hide();		
 	
 	
 	$( "#exitDialog").enhanceWithin().popup({history:false});
