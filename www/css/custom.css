@@ -37,7 +37,11 @@
 
 html, body {
 	font-family:"Roboto", sans-serif !important;
+<<<<<<< HEAD
 	font-weight:100;
+=======
+	font-weight:100 !important;
+>>>>>>> origin/master
 }
 .btn-danger {
 	color: #fff !important;
