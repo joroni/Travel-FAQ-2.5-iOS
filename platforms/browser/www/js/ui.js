@@ -51,10 +51,7 @@ appUI.popAbout = function() {
 }
 
 appUI.initialize = function() {	
-	
-	$( "#updatePopupDialog").enhanceWithin().popup({history:false});
-	$( "#updatePopupDialog" ).popup('close');
-	//$( "#updatePopupDialog" ).hide();
+
 	
 	$( "#updateProgressDialog").enhanceWithin().popup({history:false});
 	$( "#updateProgressDialog" ).popup('close');	

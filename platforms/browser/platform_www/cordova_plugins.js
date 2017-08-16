@@ -52,20 +52,6 @@ module.exports = [
         "id": "cordova-plugin-network-information.NetworkInfoProxy",
         "pluginId": "cordova-plugin-network-information",
         "runs": true
-    },
-    {
-        "file": "plugins/cordova-plugin-device/www/device.js",
-        "id": "cordova-plugin-device.device",
-        "pluginId": "cordova-plugin-device",
-        "clobbers": [
-            "device"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-device/src/browser/DeviceProxy.js",
-        "id": "cordova-plugin-device.DeviceProxy",
-        "pluginId": "cordova-plugin-device",
-        "runs": true
     }
 ];
 module.exports.metadata = 
@@ -73,8 +59,7 @@ module.exports.metadata =
 {
     "cordova-plugin-camera": "2.1.1",
     "cordova-plugin-whitelist": "1.2.1",
-    "cordova-plugin-network-information": "1.3.3",
-    "cordova-plugin-device": "1.1.6"
+    "cordova-plugin-network-information": "1.3.3"
 }
 // BOTTOM OF METADATA
 });

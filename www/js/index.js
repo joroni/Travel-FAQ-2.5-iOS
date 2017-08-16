@@ -71,7 +71,8 @@ var app = {
 		function() {
 			D('Connection established.');
 			console.log('STARTING APP...');
-
+			appUI.checkUpdate();
+			console.log('CHECK UPDATES...');
 			
 			    navigator.splashscreen.hide();
     StatusBar.styleLightContent();

@@ -53,6 +53,8 @@ config.nominatimApiURL = 'https://nominatim.openstreetmap.org/reverse?format=jso
 config.mapCoords1Key = '<latlng_1>';
 config.mapCoords2Key = '<latlng_2>';
 
+//key=AIzaSyA1XtXp7ZeoBm-i22Oc1RS0BNpdnhwTytM
+
 
 
 config.defaultIconPath = 'images/icons/default.png';
