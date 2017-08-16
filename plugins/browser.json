@@ -15,7 +15,17 @@
         },
         "cordova-plugin-network-information": {
             "PACKAGE_NAME": "com.ko.travelfaq"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.ko.travelfaq"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.ko.travelfaq"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.ko.travelfaq"
+        }
+    }
 }
