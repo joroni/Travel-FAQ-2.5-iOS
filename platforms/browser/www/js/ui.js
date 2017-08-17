@@ -746,7 +746,7 @@ appUI.setUserScreen = function() {
 				);
 				appUI.launchFirstScreen();
 			} else {
-				//appUI.launchFirstScreen();
+				appUI.launchFirstScreen();
 				return;				
 			}
 		}

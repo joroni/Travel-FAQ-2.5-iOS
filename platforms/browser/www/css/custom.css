@@ -534,8 +534,8 @@ a {
     padding: calc(50% - 26px);
      background-image: url("../images/splash.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
+    background-size:102%;
+    width: 102%;
     height:100%;
     background-color: #d10000;
     position: absolute;
