@@ -70,7 +70,7 @@ config.fileSystemRootFolder = '';
 config.detailLabels = [
 	{text:"Voice Call",icon:"call.svg",id:"voicecall"},
 	{text:"InterCall",icon:"intercall.svg",id:"intercall"},
-	{text:"Office Location",icon:"office.png",id:"officeloc"},
+	{text:"Office Location",icon:"office.svg",id:"officeloc"},
 	{text:"KO Metrics / Facts",icon:"stock.svg",id:"kometrics"},
 	{text:"Preferred Hotels",icon:"hotel.svg",id:"prefhotel"},
 	{text:"Useful Info",icon:"info.png",id:"usefulinfo"}
