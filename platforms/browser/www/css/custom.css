@@ -102,7 +102,8 @@ html, body {
 	}
 
 	#optionsPanel .ui-header .ui-btn,  #listPanel .ui-header .ui-btn {
-		margin-top:20px;
+        margin-top:20px;
+        border-radius: 50%;
 	}
 
 #ios7-statusbar-fix {
@@ -122,6 +123,7 @@ html, body {
     font-size: 1em;
     min-height: 1.1em;
     text-align: center;
+    text-shadow: none !important;
     display: block;
     margin: 0 30%;
     padding: 1.4em 0 !important;
@@ -298,7 +300,8 @@ height:30px;
     background-repeat: no-repeat;
     background-position: center right 10px;
     display: block;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif !important;
+    text-shadow: none !important;
     font-weight: 300;
     font-size: 1.1em;
 }
