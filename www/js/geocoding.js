@@ -185,9 +185,11 @@ geocoding.getCountryCodeOffline = function(lat,long) {
 
  function getLocation(){
 				if(navigator.geolocation){
-               // timeout at 60000 milliseconds (60 seconds)
+			   // timeout at 60000 milliseconds (60 seconds)
+			  
                var options = {timeout:60000};
-               navigator.geolocation.getCurrentPosition(showLocation, errorHandler, options);
+			   navigator.geolocation.getCurrentPosition(showLocation, errorHandler, options);
+			 //  $("#locating_u").hide();
             }
             
             else{

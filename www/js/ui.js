@@ -121,6 +121,7 @@ appUI.setupDetailsHolder = function() {
 
 appUI.leftHeaderButtonClick = function() {
 	if (appUI.isLandscape() && config.tabletMode) {
+		
 		appUI.gotoCurrentLocation();
 		//appUI.collapseList();
 	} else {
@@ -132,6 +133,17 @@ appUI.leftHeaderButtonClick = function() {
 	}
 }
 
+function locatingu() {
+	$("#locating_u").show();
+	function hideloader()
+	{
+		$("#locating_u").hide();
+	}
+	setTimeout(hideloader, 3000);
+
+ 	
+	  
+}
 /*
 appUI.collapseList =  function() {
 	if ($("#allCountries a").is(":hidden")) {
@@ -754,7 +766,7 @@ appUI.setUserScreen = function() {
 }
 
 appUI.gotoCurrentLocation = function() {
-	
+
 	if (!navigator.geolocation) {
 		return;
 	}
@@ -766,6 +778,7 @@ appUI.gotoCurrentLocation = function() {
 					function(countryCode) {
 						appUI.populateCountryDetails(countryCode);
 						$("#listPanel").panel("close");
+							locatingu();
 					}
 				);
 			} else {

@@ -76,7 +76,15 @@
                   <div class="ui-block-c" align="right"></div>
                </div>
             </div>
-         </div>
+		 </div>
+		<div id="locating_u" class="text-center modal" style="display:none;">
+         <!--<i class="fa fa-circle-o-notch fa-spin blue fa-2x"></i>-->
+         <center>
+			 Locating..
+              <img src="images/icons/spinner_red.gif" style="height:30px;width:30px;margin-top:10px;">
+         </center>
+      </div>
+		
          <!-- content area, dynamic -->
          <div data-role="content" id="content" class="content-area" >
             <div class="ui-grid-a" style="padding:5px;padding-bottom:0px;">
@@ -132,8 +140,8 @@
             </div>
             <div data-role="content" class="options-panel-content">
                <ul data-role="listview" id="popupMenuItems">
-                  <li data-icon="true"><a data-transition="flip" class="ui-btn ui-shadow ui-icon-cloud ui-btn-icon-right" data-icon="cloud"  onClick="appUI.closeMenu()" href="javascript:appUI.initiateDataUpdate();">Update...</a></li>
-                  <li data-icon="true"><a data-transition="flip" class="ui-btn ui-shadow ui-icon-info ui-btn-icon-right" data-icon="info" onClick="appUI.closeMenu();appUI.popAbout();" href="#">About...</a></li>
+                  <li data-icon="true"><a data-transition="flip" class="ui-btn ui-shadow ui-icon-cloud ui-btn-icon-right" data-icon="cloud"  onClick="appUI.closeMenu()" href="javascript:appUI.initiateDataUpdate();">Sync</a></li>
+                  <li data-icon="true"><a data-transition="flip" class="ui-btn ui-shadow ui-icon-info ui-btn-icon-right" data-icon="info" onClick="appUI.closeMenu();appUI.popAbout();" href="#">About</a></li>
                   <!-- <li data-icon="false"><a data-transition="flip" onClick="appUI.closeMenu();appUI.confirmExit();" href="#">Exit...</a></li> -->
                </ul>
             </div>
@@ -143,8 +151,9 @@
             <div data-role="header" data-theme="b">
                <h4>REGIONS</h4>
                <div class="ui-navbar ui-corner-all">
-                  <!--<a class="nav-icon ui-btn ui-btn-left ui-icon-carat-l ui-btn-icon-notext ui-corner-all" href="#listPanel" data-icon="carat-l" data-iconpos="notext">Close</a>-->
-                  <a class="nav-icon ui-btn ui-btn-right ui-icon-location ui-btn-icon-notext ui-corner-all" href="#" onclick="appUI.gotoCurrentLocation();" data-icon="location" data-iconpos="notext">Current Location</a>
+                  <!--<a class="nav-icon ui-btn ui-btn-left ui-icon-carat-l ui-btn-icon-notext ui-corner-all" href="#listPanel" data-icon="carat-l" data-iconpos="notext">Close</a>
+				  <a class="nav-icon ui-btn ui-btn-right ui-icon-location ui-btn-icon-notext ui-corner-all" href="#" onclick="appUI.gotoCurrentLocation();" data-icon="location" data-iconpos="notext">Current Location</a>-->
+				  <a class="nav-icon ui-btn ui-btn-right ui-icon-location " href="#" onclick="appUI.gotoCurrentLocation();" data-icon="location" data-iconpos="notext"><i class="fa fa-map-marker fa-2x"></i></a>
                </div>
             </div>
             <div id="listFilter" style="display:none;padding:0px;margin:0px;"></div>
