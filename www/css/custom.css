@@ -270,6 +270,17 @@ height:30px;
     vertical-align: middle;
     margin-right: 6px;
 }
+
+.ui-listview>.ui-li-static, .ui-listview>.ui-li-divider, .ui-listview>li>a.ui-btn {
+    margin: 0;
+    display: block;
+    position: relative;
+    text-align: left;
+    font-weight: 100;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
 /**************/
 /*
 #allCountries li{
