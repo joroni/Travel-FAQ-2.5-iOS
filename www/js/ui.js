@@ -791,3 +791,13 @@ appUI.gotoCurrentLocation = function() {
 
 
 
+
+$('#details').vaccordion({
+	accordionW		: $(window).width(),
+	accordionH		: $(window).height(),
+	visibleSlices	: 5,
+	expandedHeight	: 450,
+	animOpacity		: 0.1,
+	contentAnimSpeed: 100
+});
+
