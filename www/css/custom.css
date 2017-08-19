@@ -675,4 +675,5 @@ a.ui-link.ui-btn.ui-shadow.ui-corner-all {
   left: 50%;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
+  height: auto;
 }
