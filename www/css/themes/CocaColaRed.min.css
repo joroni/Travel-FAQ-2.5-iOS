@@ -539,6 +539,21 @@ html .ui-body-b a:hover,
 html body .ui-group-theme-b a:hover {
     color: #cd4d32;
 }
+
+
+
+.ui-bar-white {
+    border-width: 1px;
+    border-style: solid;
+    background-color: #ddd;
+    border-color: #8e8e8e;
+    color: #333;
+    text-shadow: 0 1px 0 #fff;
+    font-weight: 300;
+    box-shadow: 1px 0 8px rgba(0,0,0,0.3);
+    border-radius: 4px;
+}
+
 .ui-page-theme-b a:active,
 html .ui-bar-b a:active,
 html .ui-body-b a:active,

@@ -51,19 +51,29 @@
    </head>
    <body>
       <div id="ios7-statusbar-fix"></div>
-      <div id="loading" class="text-center redbg">
+      <div id="loading" class="text-center redbg" style="display: block;">
          <!--<i class="fa fa-circle-o-notch fa-spin blue fa-2x"></i>-->
         
-         <center>
-            <img src="images/tfq-logo.svg" class="center" style="height:80px;width:auto;">
-         </center>
+        <div class="centered">
+   
+            <div class="text-center">
+            <img src="images/tfq-logo.svg" class="centered image-responsive" style="height:auto;width:400px; position: absolute; top: -10px;">
+            </div>
+         
           </br>
-         <center>
-            <img src="images/icons/spinner_material.gif" class="" style="height:30px;width:30px;margin-top:calc (50%, 25px); opacity:0.8;">
-         </center>
-           <company>
-            <img src="images/Coca-Cola-IT-Lockup-white.svg" class="" style="height:auto;width:80px; position: absolute; margin-left:-40px; bottom: 20px;">
-         </company>
+         
+            <div class="text-center">
+            <img src="images/icons/spinner_material.gif" class="centered image-responsive" style="height:30px;width:30px; position: absolute; top:150px;">
+            </div>
+            
+            
+         </br>
+            
+              <div class="text-center">
+            <img src="images/Coca-Cola-IT-Lockup-white.svg" class="centered image-responsive" style="height:auto;width:120px; position: absolute; top: 300px;">
+            </div>
+        
+         </div>
       </div>
       <div id="main" data-role="page" style="padding-bottom:0px !important;">
          <!-- <div id="//$("#status-bar").show();" class="hidden"></div>-->
@@ -87,7 +97,7 @@
 		 </div>
 		<div id="locating_u" class="text-center modal modalWin" style="display:none;">
          <!--<i class="fa fa-circle-o-notch fa-spin blue fa-2x"></i>-->
-         <center>
+         <center class="center">
 			 
               <img src="images/icons/spinner_red.gif" style="height:30px;width:30px;margin-top:10px;">
          </center>
@@ -119,10 +129,10 @@
             </div>
             <!-- when no local data is found -->
             <div id="no_data" style="display:none;margin:50px;">
-               <div class="ui-bar-b">
+               <div class="ui-bar-white">
                   <div class="nodata-found">
                      <b>No offline data found!</b><br><br>Kindly sync with server to get the latest Travel FAQ data.<br><br>
-                     <a href="javascript:appUI.initiateDataUpdate();" class="btn btn-danger">Update Now</a>
+                     <a href="javascript:appUI.initiateDataUpdate();" class="btn btn-danger">Sync Now</a>
                   </div>
                </div>
             </div>
